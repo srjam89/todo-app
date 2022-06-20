@@ -1,0 +1,31 @@
+.input-container {
+  display: flex;
+  margin-top: 20px;
+  padding: 5px;
+  align-items: center;
+  /*justify-content: space-between; */
+}
+
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+li {
+  font-family: "Source Sans 3", sans-serif;
+  flex-grow: 1;
+}
+
+.remove-btn {
+  width: 27px;
+  height: 27px;
+  text-align: center;
+  padding: 2px;
+}
+
+hr {
+  margin-top: 5px;
+  border: 1px solid #7c117a;
+  margin-bottom: 3px;
+}

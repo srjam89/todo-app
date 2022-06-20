@@ -1,0 +1,36 @@
+input[type="text"] {
+  padding: 5px;
+  width: 270px;
+  border: 1.5px solid lightgrey;
+  margin-bottom: 10px;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid black;
+}
+
+button {
+  height: 30px;
+  padding: 4px;
+  margin-left: 5px;
+  background: linear-gradient(
+    90deg,
+    rgba(124, 17, 122, 1) 0%,
+    rgba(204, 32, 189, 1) 100%
+  );
+  border: none;
+  border-radius: 3px;
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(96, 12, 95, 1) 0%,
+    rgba(211, 46, 228, 1) 100%
+  );
+  cursor: pointer;
+}
